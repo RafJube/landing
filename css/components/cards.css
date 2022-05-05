@@ -1,0 +1,31 @@
+.container {
+
+  width: 900px;
+  margin: auto;
+  padding-bottom: 50px;;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container > h2 {
+  font-size: 32px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.card {
+  text-align: center;
+  padding-top: 20px;
+  height: 200px;
+  width: 150px;
+  border-radius: 4px;
+  box-shadow: 5px 5px 15px grey;
+}
+
+.card > img {
+  height: 70px;
+}

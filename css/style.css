@@ -1,0 +1,21 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Montserra');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+@import url('./components/banner.css');
+@import url('./components/cards.css');
+@import url('./components/footer.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Montserra;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */

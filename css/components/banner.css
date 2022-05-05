@@ -1,0 +1,41 @@
+.banner {
+  background-image: url("../../images/shanghai.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.banner > .container {
+  width: 700px;
+}
+
+.banner h1 {
+  font-family: Monoton;
+  font-size: 48px;
+  color: rgb(240, 240, 240);
+}
+
+.banner p {
+  font-family: Monoton;
+  font-size: 20px;
+  color: rgba(240, 240, 240, 0.7);
+}
+
+.banner a {
+  font-family: Monoton;
+  display: inline-block;
+  color: rgb(20, 20, 20);
+  font-size: 16px;
+  background-color: rgb(240, 240, 240);
+  margin-top: 30px;;
+  padding: 10px 25px;
+  border-radius: 25px;
+}
+
+.banner a:hover {
+  transition: 0.5s;
+font-size: 24px;
+}

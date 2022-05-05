@@ -1,0 +1,29 @@
+.footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  height: 100px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.fab {
+  font-size: 40px;
+  color: white;
+}
+
+.fab:hover {
+  font-size: 50px;
+  transition: 0.5s;
+}
